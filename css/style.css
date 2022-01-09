@@ -103,7 +103,7 @@
 .about {
   width: 100%;
   height: 400px;
-  background-color: gray;
+  background-color: rgb(238, 236, 236);
 }
 .about-midasi {
   padding: 40px 50% 30px 50% ;
@@ -158,8 +158,8 @@
   margin: 0 auto;
 }
 .service-naiyo1 h3 {
-  margin: 10px auto ;
-  padding: 0px 0px 0px 160px;
+  display: inline-block;
+  margin: 10px 0 10px 42%;
 }
 .service-naiyo1-kizi {
   width: 80%;
@@ -170,6 +170,8 @@
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: rgb(181, 3, 181);
+  position: relative;
+  display: flex;
 }
 .service-naiyo2 img {
   width: 30%;
@@ -177,15 +179,17 @@
   display: block;
 }
 .service-naiyo2 h3 {
-  position: relative;
-  top: -130px;
-  left: 120px;
+  display: block;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 5%;
 }
 .service-naiyo2-kizi {
-  position: relative;
-  top: -120px;
-  left: 120px;
   font-size: 14px;
+  display: block;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 5%;
 }
 .service-naiyo2-kizi p {
   margin: 10px 0;
@@ -194,6 +198,8 @@
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: rgb(245, 24, 245);
+  position: relative;
+  display: flex;
 }
 .service-naiyo3 img {
   width: 30%;
@@ -201,21 +207,23 @@
   display: block;
 }
 .service-naiyo3 h3 {
-  position: relative;
-  top: -130px;
-  left: 120px;
+  display: block;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 5%;
 }
 .service-naiyo3-kizi {
-  position: relative;
-  top: -120px;
-  left: 120px;
+  display: block;
+  position: absolute;
   font-size: 14px;
+  margin-top: 12%;
+  margin-left: 5%;
 }
 .service-naiyo3-kizi p {
   margin: 10px 0;
 }
 .blog {
-  background-color: gray;
+  background-color: rgb(235, 232, 232);
   width: 100%;
   height: 400px;
 }
@@ -273,7 +281,7 @@ border-top-left-radius: 15px;
   font-size: 14px;
   justify-content: space-between;
   margin: 10px 10px;
-  color: gray;
+  color: rgb(95, 94, 94);
 }
 .blog-button {
   background-color: white;
@@ -359,12 +367,10 @@ left: 40%;
   position: relative;
 }
 .line {
-  margin-left: 160px;
   width: 3px;
   height: 30px;
   background-color: violet;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 .toi-button {
   background: linear-gradient(90deg,#ff34ff,#99095d);
@@ -406,7 +412,4 @@ left: 40%;
   text-align: center;
   padding-top: 15px;
   color: rgb(68, 68, 68);
-}
-*{
-  outline: 1px solid red !important;
 }
